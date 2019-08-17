@@ -10,3 +10,4 @@ apt-get update && apt-get install -y libxt-dev
 
 Rscript -e 'install.packages("devtools", dependencies = TRUE)'
 Rscript -e 'install.packages(c("parallel","snow","MatchIt"), dependencies = TRUE)'
+Rscript -e 'install.packages("ggplot2", dependencies = TRUE)'
